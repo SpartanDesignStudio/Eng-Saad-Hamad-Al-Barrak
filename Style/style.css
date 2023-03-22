@@ -21,6 +21,9 @@ li {
   list-style: none;
   padding-left: 0;
 }
+ul li a {
+  color: white !important;
+}
 /* -------------------------------------------------------------------------- */
 /*                               Start Nav                               */
 /* -------------------------------------------------------------------------- */
@@ -43,6 +46,19 @@ nav i:hover {
   background-color: tomato;
   color: white !important;
 }
+.bg-white {
+  background: transparent !important;
+  transition: 1.5s ease-in;
+  -webkit-transition: 1.5s ease-in;
+  -moz-transition: 1.5s ease-in;
+  -ms-transition: 1.5s ease-in;
+  -o-transition: 1.5s ease-in;
+}
+
+.bg-white.scrolled {
+  background: black !important;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                End Nav                                */
 /* -------------------------------------------------------------------------- */
